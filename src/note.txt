@@ -1,0 +1,34 @@
+page 
+Homepage-> product list  ->Home
+adproduct->to add a product ->AddProduct
+login page->user login ->Login
+signup page->user signup ->SignUp
+cart->products that are added to cart  ->Cart
+product page->individual product details ->ProductDetails
+
+Home->
+1. URL->/home/products
+2. Get all the products API ->Ajax call this will when page is loaded -store the data in a state
+3. show  all the products - by iterating array of products(object)
+
+AddProduct:-
+1. create a form [title(text),description(textarea),image(text),category(dropdown),price[number],submit]
+2. make a api call to add a product on clicking button
+
+Login:-
+1. create a from [username(text),password(password),submit]
+2. make a api call to login on clicking button
+
+Signup:-
+1. create a form [email(email),username(text),password(password),firstName(text),lastName(text),phone(text),submit]
+2. make a api call to add user on clicking button
+
+Products:-
+1. get individual product details;
+2. create add to cart  and delete from cart button in it;
+3. create box to include no of products;
+
+Cart:-
+1. get the product which is added to cart
+2. create delete from cart button
+3. add tottal amount box
